@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About sgyn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="gradient-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- The SVG Filter that creates the "merging" effect -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none;">
+        <defs>
+            <filter id="gooey">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
+            <h1 class="fade-in">i'm Sugyan 🖖</h1>  
+            <p class="sub-text fade-in-delay">Web Developer inspired by minimalist and bold design language...</p>
+        </section>
+
+        <!-- Experience List -->
+        <section class="experience">
+            <div class="exp-item">
+                <div class="exp-info">
+                    <h3>Linux Fundaments and DevOps Engineering</h3>
+                    <p>Self Learning</p>
+                </div>
+                <span class="date">now /    </span>
+            </div>
+            
+            <div class="exp-item">
+                <div class="exp-info">
+                    <h3>Responsive Web Design </h3>
+                    <p>Self learnt through freecodecamp.org</p>
+                </div>
+                <span class="date">2023 / 2024</span>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <a href="https:\\instagram.com/sgyn._" class="cta-button">My Instagram</a>
+        </footer>
+    </main>
+</body>
+</html>
