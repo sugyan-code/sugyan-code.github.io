@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@sgyn</title>
+    <meta name="description" content="Independent DEVOPS TRAINEE crafting brand systems and interfaces for ambitious teams.">
+    
+    <meta property="og:title" content="@sgyn — Sugyan Dhakal">
+    <meta property="og:description" content="Independent DEVOPS TRAINEE crafting brand systems and interfaces for ambitious teams.">
+    <meta property="og:image" content="Profile.jpg">
+    
+    <!-- Google Fonts: Cinzel, EB Garamond, IM Fell English, JetBrains Mono, Rozha One, Tiro Devanagari Sanskrit, Eczar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Eczar:wght@400;500;600&family=IM+Fell+English:ital@0;1&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Rozha+One&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+</head>
+<body>
+
+    <div class="ln-root">
+        
+        <!-- Sticky Renaissance Site Navigation -->
+        <nav aria-label="Primary" class="site-nav">
+            <div class="site-nav__inner">
+                <a class="site-nav__brand" href="#home">
+                    <span class="status-dot"></span>
+                    <span>sgyn</span>
+                </a>
+                <div class="site-nav__motto" aria-label="तमसो मा ज्योतिर्गमय">
+                    <span class="motto-text">तमसो मा ज्योतिर्गमय</span>
+                </div>
+                <div class="header-right">
+                    <span class="theme-label desktop-only">Ambience</span>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme" title="Toggle illumination">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ================================================================
+             SCROLL-DRIVEN TAPESTRY TOUR (pragalva.me/projects effect)
+             Sticky stage with mathematical zoom & pan targeting the ladies' faces
+             ================================================================ -->
+        <div class="pj-tour" id="home">
+            <div class="pj-stage" id="pj-stage" data-kind="hall">
+                <div class="pj-frame" id="pj-frame">
+                    <img src="test.jpg" id="pj-frame-img" width="8000" height="5808" alt="Classical pastoral tapestry" loading="eager" fetchpriority="high" decoding="async">
+                </div>
+                <div aria-hidden="true" class="pj-spot" id="pj-spot">
+                    <span></span>
+                </div>
+                <div aria-hidden="true" class="pj-shade pj-shade--hall"></div>
+                <div aria-hidden="true" class="pj-shade pj-shade--left"></div>
+                <div aria-hidden="true" class="pj-shade pj-shade--right"></div>
+                <div aria-hidden="true" class="pj-shade pj-shade--bottom"></div>
+            </div>
+
+            <div class="pj-steps" id="pj-steps">
+                
+                <!-- Stop 0: Tapestry Hall Overview -->
+                <section id="pj-hall" class="pj-step pj-step--hall">
+                    <div class="pj-cap">
+                        <h1 class="pj-cap__name ln-title">Sugyan Dhakal</h1>
+                        <p class="pj-cap__meta ln-mono">"जिस दिन तुमने गुस्से का उत्तर गुस्से से देने के बजाय मौन चुना, उसी दिन जीत शुरू हो जाती है।"<br><br>-Osho Rajneesh</p>
+                        <button type="button" class="pj-skip" id="pj-skip-btn">skip the niche ↓</button>
+                    </div>
+                </section>
+
+                <!-- Stop 1: Intimate Focus on the Ladies' Faces -->
+                <section id="pj-ladies" class="pj-step pj-step--left">
+                    <div class="pj-cap">
+                        <p class="ln-eyebrow">I · Focus</p>
+                        <h2 class="pj-cap__title ln-title">Linux & DevOps Trainee</h2>
+                        <p class="pj-cap__desc">
+                            DevOps projects tryouts and Linux Fundamentals along with internship seeking. Currently in Trinity International College.
+                        </p>
+                        <div class="pj-cap__links ln-mono">
+                            <a href="#about">About Sugyan →</a>
+                            <a href="#portfolio-content">Explore Full Portfolio ↓</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Stop 2: Creative & Graphic Design Works -->
+                <section id="pj-works" class="pj-step pj-step--right">
+                    <div class="pj-cap">
+                        <p class="ln-eyebrow">II · Creative Works</p>
+                        <h2 class="pj-cap__title ln-title">Computer Club — MSS</h2>
+                        <p class="pj-cap__desc">
+                            Graphic Designer for Computer Club at Manakamana Secondary School, Gokarneshwor-7 (2021–2026), crafting annual magazines and calendars.
+                        </p>
+                        <div class="pj-cap__links ln-mono">
+                            <a href="#work">View 5 Projects →</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Stop 3: Technical Learning & Foundations -->
+                <section id="pj-learning" class="pj-step pj-step--left">
+                    <div class="pj-cap">
+                        <p class="ln-eyebrow">III · Foundations</p>
+                        <h2 class="pj-cap__title ln-title">Go, Python & Web Systems</h2>
+                        <p class="pj-cap__desc">
+                            Self-learning Go in 2026, certified in Python and Responsive Web Design from freeCodeCamp, with early foundations in C and QBasic.
+                        </p>
+                        <div class="pj-cap__links ln-mono">
+                            <a href="#experience">View Certifications →</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Stop 4: Correspondence & Inquiries -->
+                <section id="pj-contact" class="pj-step pj-step--right">
+                    <div class="pj-cap">
+                        <p class="ln-eyebrow">IV · Correspondence</p>
+                        <h2 class="pj-cap__title ln-title">Let's Connect</h2>
+                        <p class="pj-cap__desc">
+                            Reach out at sgyndhkl@gmail.com for internships, collaborations, or tech explorations. Based in Kathmandu, Nepal.
+                        </p>
+                        <div class="pj-cap__links ln-mono">
+                            <a href="mailto:sgyndhkl@gmail.com">Email Directly ↗</a>
+                            <a href="https://www.linkedin.com/in/sgyn/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- ================================================================
+             FULL EDITORIAL PORTFOLIO SECTIONS (Index & Deep Dives)
+             ================================================================ -->
+        <main class="app-container" id="portfolio-content">
+
+            <!-- Hero Introduction Section with Avatar -->
+            <section class="hero-section ln-container animate-rise">
+                <div class="grid-layout items-start">
+                    
+                    <div class="profile-container col-span-12 md-col-span-3">
+                        <div class="avatar-frame">
+                            <svg class="camera-ring-svg" viewBox="0 0 100 100" aria-hidden="true">
+                                <circle class="camera-ring-path" cx="50" cy="50" r="48.5" />
+                            </svg>
+                            <img src="Profile.jpg" alt="SGYN Profile" class="avatar-img" id="hero-avatar">
+                        </div>
+                    </div>
+
+                    <div class="col-span-12 md-col-span-9 hero-text-space">
+                        <p class="ln-eyebrow">So, who the hell is this guy?</p>
+                        <h1 class="hero-title ln-title">
+                            <span class="title-line">Web Engineer and Linux Enthusiast</span>
+                            <span class="title-line">Level 1. Devops Guy</span>
+                            <br>
+                            <span class="title-line title-tag">**loves sidequesting</span>
+                        </h1>
+
+                        <div class="hero-details animate-rise delay-6">
+                            <div class="details-block">
+                                <p class="details-title ln-mono">Focus</p>
+                                <p class="details-text">
+                                    Tech-eager. Currently a part of Trinity International SS & College.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Diamond Divider -->
+            <div aria-hidden="true" class="ln-divider">
+                <span></span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M7 1 L13 7 L7 13 L1 7 Z"></path></svg>
+                <span></span>
+            </div>
+
+            <!-- Previously / Work Section -->
+            <section id="work" class="work-section ln-container animate-on-scroll">
+                <div class="ln-list__head">
+                    <h2 class="ln-eyebrow">I · Previously</h2>
+                    <span class="ln-list__all ln-mono">MSS Computer Club</span>
+                </div>
+
+                <div class="section-intro-wrap">
+                    <p class="section-intro">
+                        Graphic Designer for Computer Club at Manakamana Secondary School, Gokarneshwor-7
+                    </p>
+                </div>
+
+                <ul class="work-list group-hover-effect">
+                    <li class="work-item ln-row">
+                        <a href="#" class="work-link">
+                            <span class="ln-row__meta work-number ln-mono">01 · 2026</span>
+                            <span class="work-content">
+                                <span class="ln-title ln-row__title work-client">Jharana Yearly Magazine</span>
+                                <span class="ln-row__sub work-role">Jharana Club - MSS</span>
+                            </span>
+                            <span class="work-year ln-mono">2026 <span class="arrow">↗</span></span>
+                        </a>
+                    </li>
+                    <li class="work-item ln-row">
+                        <a href="#" class="work-link">
+                            <span class="ln-row__meta work-number ln-mono">02 · 2025</span>
+                            <span class="work-content">
+                                <span class="ln-title ln-row__title work-client">Yearly Calendar - 2082BS</span>
+                                <span class="ln-row__sub work-role">Computer Club - MSS</span>
+                            </span>
+                            <span class="work-year ln-mono">2025 <span class="arrow">↗</span></span>
+                        </a>
+                    </li>
+                    <li class="work-item ln-row">
+                        <a href="#" class="work-link">
+                            <span class="ln-row__meta work-number ln-mono">03 · 2024</span>
+                            <span class="work-content">
+                                <span class="ln-title ln-row__title work-client">Yearly Calendar - 2081BS</span>
+                                <span class="ln-row__sub work-role">Computer Club - MSS</span>
+                            </span>
+                            <span class="work-year ln-mono">2024 <span class="arrow">↗</span></span>
+                        </a>
+                    </li>
+                    <li class="work-item ln-row">
+                        <a href="#" class="work-link">
+                            <span class="ln-row__meta work-number ln-mono">04 · 2023</span>
+                            <span class="work-content">
+                                <span class="ln-title ln-row__title work-client">Yearly Calendar - 2080BS</span>
+                                <span class="ln-row__sub work-role">Computer Club - MSS</span>
+                            </span>
+                            <span class="work-year ln-mono">2023 <span class="arrow">↗</span></span>
+                        </a>
+                    </li>
+                    <li class="work-item ln-row">
+                        <a href="#" class="work-link">
+                            <span class="ln-row__meta work-number ln-mono">05 · 2021</span>
+                            <span class="work-content">
+                                <span class="ln-title ln-row__title work-client">Graphic Designer</span>
+                                <span class="ln-row__sub work-role">Computer Club - MSS</span>
+                            </span>
+                            <span class="work-year ln-mono">2021 <span class="arrow">↗</span></span>
+                        </a>
+                    </li>
+                    <li class="list-closer"></li>
+                </ul>
+            </section>
+
+            <!-- Diamond Divider -->
+            <div aria-hidden="true" class="ln-divider">
+                <span></span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M7 1 L13 7 L7 13 L1 7 Z"></path></svg>
+                <span></span>
+            </div>
+
+            <!-- About Section -->
+            <section id="about" class="about-section ln-container animate-on-scroll">
+                <div class="ln-list__head">
+                    <h2 class="ln-eyebrow">II · About</h2>
+                    <span class="ln-list__all ln-mono">Profile & Aspirations</span>
+                </div>
+                
+                <div class="about-body">
+                    <p class="about-text ln-bio">
+                        I’m Sugyan Dhakal—a Kathmandu-based student, the server guy, and DevOps aspirer with a bad habit of optimizing workflows that probably don't need optimizing yet. When I wasn't so deep into configuring systems, I gave life to digital media like the Jharana Yearly Magazine for my school's Computer Club. I’m currently on the hunt for a tech internship, ready to bring high energy, design flair, and a genuine eagerness to automate everything in sight.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Diamond Divider -->
+            <div aria-hidden="true" class="ln-divider">
+                <span></span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M7 1 L13 7 L7 13 L1 7 Z"></path></svg>
+                <span></span>
+            </div>
+
+            <!-- Languages / Experience Section -->
+            <section id="experience" class="experience-section ln-container animate-on-scroll">
+                <div class="ln-list__head">
+                    <h2 class="ln-eyebrow">III · Languages & Certifications</h2>
+                    <span class="ln-list__all ln-mono">Technical Foundations</span>
+                </div>
+
+                <ol class="experience-list">
+                    <li class="experience-item ln-row">
+                        <span class="ln-row__meta exp-period ln-mono">2026</span>
+                        <span class="exp-content">
+                            <span class="ln-title ln-row__title exp-role">Go</span>
+                            <span class="ln-row__sub exp-place">Self-Learning</span>
+                        </span>
+                    </li>
+                    <li class="experience-item ln-row">
+                        <span class="ln-row__meta exp-period ln-mono">2025–2026</span>
+                        <span class="exp-content">
+                            <span class="ln-title ln-row__title exp-role">Python Certification Course Certification</span>
+                            <span class="ln-row__sub exp-place">freecodecamp.org</span>
+                        </span>
+                    </li>
+                    <li class="experience-item ln-row">
+                        <span class="ln-row__meta exp-period ln-mono">2024–2025</span>
+                        <span class="exp-content">
+                            <span class="ln-title ln-row__title exp-role">Responsive Web Design Certification</span>
+                            <span class="ln-row__sub exp-place">freecodecamp.org</span>
+                        </span>
+                    </li>
+                    <li class="experience-item ln-row">
+                        <span class="ln-row__meta exp-period ln-mono">2024</span>
+                        <span class="exp-content">
+                            <span class="ln-title ln-row__title exp-role">C Programming Course, Qbasic Course</span>
+                            <span class="ln-row__sub exp-place">Manakamana Secondary School</span>
+                        </span>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Diamond Divider -->
+            <div aria-hidden="true" class="ln-divider">
+                <span></span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1"><path d="M7 1 L13 7 L7 13 L1 7 Z"></path></svg>
+                <span></span>
+            </div>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section ln-container animate-on-scroll">
+                <div class="ln-list__head">
+                    <h2 class="ln-eyebrow">IV · Contact</h2>
+                    <span class="ln-list__all ln-mono">Inquiries & Correspondence</span>
+                </div>
+
+                <div class="contact-body">
+                    <a href="mailto:sgyndhkl@gmail.com" class="email-link ln-title">sgyndhkl@gmail.com</a>
+                    
+                    <ul class="social-grid">
+                        <li>
+                            <a href="https://www.instagram.com/sgyn._/" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                                <span>Instagram</span>
+                                <span class="arrow">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sgyn/" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                                <span>LinkedIn</span>
+                                <span class="arrow">↗</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sgyndhkl@gmail.com" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                <span>Email</span>
+                                <span class="arrow">↗</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-bottom ln-mono">
+                    <span>© 2026 SGYN</span>
+                    <span class="text-right">KTM / NP</span>
+                </div>
+            </section>
+
+            <!-- High-Performance Liquid Glass Floating Nav Bar -->
+            <nav class="liquid-nav" aria-label="Quick Jump">
+                <ul class="liquid-glass" id="liquid-nav-list">
+                    <span class="liquid-pill-backdrop" id="liquid-pill-tracker"></span>
+                    
+                    <li><a href="#home" data-id="home">Home</a></li>
+                    <li><a href="#work" data-id="work">Work</a></li>
+                    <li><a href="#about" data-id="about">About</a></li>
+                    <li><a href="#experience" data-id="experience">Experience</a></li>
+                    <li><a href="#contact" data-id="contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </main>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
